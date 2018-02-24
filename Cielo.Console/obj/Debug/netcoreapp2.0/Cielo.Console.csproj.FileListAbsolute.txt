@@ -1,0 +1,13 @@
+C:\repos\cielo\Cielo.Console\obj\Debug\netcoreapp2.0\Cielo.Console.csprojResolveAssemblyReference.cache
+C:\repos\cielo\Cielo.Console\obj\Debug\netcoreapp2.0\Cielo.Console.csproj.CoreCompileInputs.cache
+C:\repos\cielo\Cielo.Console\obj\Debug\netcoreapp2.0\Cielo.Console.AssemblyInfoInputs.cache
+C:\repos\cielo\Cielo.Console\obj\Debug\netcoreapp2.0\Cielo.Console.AssemblyInfo.cs
+C:\repos\cielo\Cielo.Console\bin\Debug\netcoreapp2.0\Cielo.Console.deps.json
+C:\repos\cielo\Cielo.Console\bin\Debug\netcoreapp2.0\Cielo.Console.runtimeconfig.json
+C:\repos\cielo\Cielo.Console\bin\Debug\netcoreapp2.0\Cielo.Console.runtimeconfig.dev.json
+C:\repos\cielo\Cielo.Console\bin\Debug\netcoreapp2.0\Cielo.Console.dll
+C:\repos\cielo\Cielo.Console\bin\Debug\netcoreapp2.0\Cielo.Console.pdb
+C:\repos\cielo\Cielo.Console\bin\Debug\netcoreapp2.0\Cielo.dll
+C:\repos\cielo\Cielo.Console\bin\Debug\netcoreapp2.0\Cielo.pdb
+C:\repos\cielo\Cielo.Console\obj\Debug\netcoreapp2.0\Cielo.Console.dll
+C:\repos\cielo\Cielo.Console\obj\Debug\netcoreapp2.0\Cielo.Console.pdb

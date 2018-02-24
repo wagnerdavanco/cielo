@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Cielo.Validators;
+using System;
 using System.Collections.Generic;
 
 namespace Cielo.Domain
@@ -73,16 +74,16 @@ namespace Cielo.Domain
                           EnumBrand Brand)
         {
 
-            AlterarCardNumber(cardNumber);
+            AlterarBrand(Brand);
+            AlterarCardNumber(cardNumber, Brand);
+            AlterarSecurityCode(securityCode);
             AlterarHolder(holder);
             AlterarDateExpiration(yearExpiration, monthExpiration);
-            AlterarSecurityCode(securityCode);
-            AlterarBrand(Brand);
         }
 
         private void AlterarBrand(EnumBrand brand)
         {
-            this.Brand = Brand.ToString();
+            this.Brand = brand.ToString();
         }
 
         private void AlterarSecurityCode(string securityCode)
@@ -115,11 +116,16 @@ namespace Cielo.Domain
             this.Holder = holder;
         }
 
-        private void AlterarCardNumber(string cardNumber)
+        private void AlterarCardNumber(string cardNumber, EnumBrand brand)
         {
             if (string.IsNullOrEmpty(cardNumber))
             {
                 throw new ArgumentException("CardNumber name is required");
+            }
+
+            if (!CredcardValidator.IsValid(cardNumber, brand))
+            {
+                throw new ArgumentException("Número de cartão é invalido");
             }
 
             this.CardNumber = cardNumber;

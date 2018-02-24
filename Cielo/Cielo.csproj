@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp1.1</TargetFramework>
+    <Product>Cielo WebService 3.0</Product>
+    <Authors>Wagner Davanço</Authors>
   </PropertyGroup>
 
   <ItemGroup>

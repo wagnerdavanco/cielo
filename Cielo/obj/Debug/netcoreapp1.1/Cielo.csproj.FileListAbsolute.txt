@@ -3,3 +3,12 @@ C:\Users\logonrm\Documents\Visual Studio 2017\Projects\Cielo\Cielo\bin\Debug\net
 C:\Users\logonrm\Documents\Visual Studio 2017\Projects\Cielo\Cielo\obj\Debug\netcoreapp1.1\Cielo.csprojResolveAssemblyReference.cache
 C:\Users\logonrm\Documents\Visual Studio 2017\Projects\Cielo\Cielo\obj\Debug\netcoreapp1.1\Cielo.csproj.CoreCompileInputs.cache
 C:\Users\logonrm\Documents\Visual Studio 2017\Projects\Cielo\Cielo\obj\Debug\netcoreapp1.1\Cielo.AssemblyInfo.cs
+C:\repos\cielo\Cielo\obj\Debug\netcoreapp1.1\Cielo.csprojResolveAssemblyReference.cache
+C:\repos\cielo\Cielo\obj\Debug\netcoreapp1.1\Cielo.csproj.CoreCompileInputs.cache
+C:\repos\cielo\Cielo\obj\Debug\netcoreapp1.1\Cielo.AssemblyInfoInputs.cache
+C:\repos\cielo\Cielo\obj\Debug\netcoreapp1.1\Cielo.AssemblyInfo.cs
+C:\repos\cielo\Cielo\bin\Debug\netcoreapp1.1\Cielo.deps.json
+C:\repos\cielo\Cielo\bin\Debug\netcoreapp1.1\Cielo.dll
+C:\repos\cielo\Cielo\bin\Debug\netcoreapp1.1\Cielo.pdb
+C:\repos\cielo\Cielo\obj\Debug\netcoreapp1.1\Cielo.dll
+C:\repos\cielo\Cielo\obj\Debug\netcoreapp1.1\Cielo.pdb

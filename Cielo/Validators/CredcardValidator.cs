@@ -4,13 +4,12 @@ using System.Collections.Generic;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace Cielo
+namespace Cielo.Validators
 {
-    class CredcardHelper
+    public static class CredcardValidator
     {
-
-        public void Validar(string cardNumber EnumBrand brand) {
-
+        public static bool IsValid(string cardNumber, EnumBrand brand)
+        {
             // Visa
             if (Regex.IsMatch(cardNumber, "^(4)")
                 && ((brand & EnumBrand.Visa) != 0))
@@ -18,7 +17,7 @@ namespace Cielo
 
             // MasterCard
             if (Regex.IsMatch(cardNumber, "^(51|52|53|54|55)")
-                && ((brand & EnumBrand.MasterCard) != 0))
+                && ((brand & EnumBrand.Master) != 0))
                 return cardNumber.Length == 16;
 
             // Amex
@@ -31,7 +30,7 @@ namespace Cielo
                 && ((brand & EnumBrand.Diners) != 0))
                 return cardNumber.Length == 14;
 
-  
+            return false;
         }
     }
 }
